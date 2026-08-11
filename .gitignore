@@ -1,0 +1,48 @@
+# Python bytecode and caches
+__pycache__/
+*.py[cod]
+*$py.class
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Virtual environments
+.venv/
+venv/
+env/
+
+# IDE and editor files
+.idea/
+.vscode/
+*.swp
+*.swo
+
+# Accidental nested repository
+add/
+
+# Jupyter
+.ipynb_checkpoints/
+Try.ipynp
+try2.ipynp
+train.py
+download.ipynb
+train_data.csv
+
+
+
+# OS files
+.DS_Store
+Thumbs.db
+
+# Local environment files
+.env
+.env.*
+
+
+
+#Archiv
+Archiv/
+
+

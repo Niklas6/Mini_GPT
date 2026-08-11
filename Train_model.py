@@ -20,10 +20,10 @@ eval_iters = 200
 
 eval_interval=100
 
-n_embd=16*6
-n_head=6
+n_embd=16*4
+n_head=4
 
-n_layer=6
+n_layer=4
 dropout=0.2
 
 
@@ -230,7 +230,7 @@ if __name__ == '__main__':
     print("Model saved to tiny_transformer.pt")
 
     with torch.no_grad():
-        for token_id in [38, 34, 31, 27]:
+        for token_id in [38]:
             start = torch.tensor([[token_id]], dtype=torch.long, device=device)
-            generated = m.generate(start, max_new_tokens=500)
+            generated = m.generate(start, max_new_tokens=1000)
             print(decode(generated[0].tolist()))
