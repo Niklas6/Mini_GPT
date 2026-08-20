@@ -5,7 +5,7 @@ In this project, we implement a small-scale GPT language model. The model predic
 
 The model construction is based on the transformer structure of the Attention is all you need paper. The implementation follows the ideas of Andrej Karpathy. 
 
-This is the first version of the project and will be refined soon. 
+This is the first version of the project and will be refined soon. The Improved model trained on more complex tokens can be found in the GPT branch but is still under construction.
 
 
 # How to use
