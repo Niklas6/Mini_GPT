@@ -6,6 +6,7 @@ The model construction is based on the transformer structure of the Attention is
 There are two models, one uses letters as tokens and one Byte-Pair Encoding (BPE) tokens adapted to the tiny_stories.txt.
 
 Train_BPE_model.py -> Requires a 48 GB NVIDIA GPU and a download of the larger tiny stories file 
+
 Train_letter_model.py-> Runnable on a usual Laptop
 
 The trained BPE model can be downloaded in Hugging face over (https://huggingface.co/Niklas1/GPT_tiny_storys/tree/main)
