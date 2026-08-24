@@ -7,7 +7,6 @@ from tokenizers import Tokenizer
 
 
 device = torch.device("cpu")
-
 # Load checkpoint
 checkpoint = torch.load(
     "mini_GPT.pt",
