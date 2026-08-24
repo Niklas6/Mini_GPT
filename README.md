@@ -23,6 +23,8 @@ Then the model can be run over by passing
 
 python employ.py 
 
+Then the GPT completes stories with the initial prompt:
+"Once upon a time there was a dragon"
 
 
 
