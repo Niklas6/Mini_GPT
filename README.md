@@ -19,7 +19,8 @@ To employ the model the user needs to use the terminal. The model can be downloa
 hf download Niklas1/GPT_tiny_storys mini_GPT.pt --local-dir 
 
 Then the model can be run over by passing 
-python rmploy.py 
+
+python employ.py 
 
 
 
