@@ -41,7 +41,7 @@ tokenizer = Tokenizer.from_file(
 )
 
 
-prompt = "Once upon a time there was a young women called Yourong."
+prompt = "Once upon a time there was a dragon."
 
 prompt_ids = tokenizer.encode(prompt).ids
 
